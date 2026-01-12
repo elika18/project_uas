@@ -1,0 +1,50 @@
+# PROGRAM UTAMA
+
+def main():
+    process = MahasiswaProcess()
+    view = MahasiswaView()
+
+    while True:
+        view.menu()
+        pilihan = input("Pilih menu (1-4): ")
+
+        try:
+            if pilihan == "1":
+                print("\n--- Tambah Data Mahasiswa ---")
+                nama = input("Nama  : ")
+                nim = input("NIM   : ")
+                tugas = float(input("Nilai Tugas : "))
+                uts = float(input("Nilai UTS   : "))
+                uas = float(input("Nilai UAS   : "))
+
+                process.tambah(nama, nim, tugas, uts, uas)
+                print("Data berhasil ditambahkan!")
+
+            elif pilihan == "2":
+                view.tampilkan_tabel(process.get_data())
+
+            elif pilihan == "3":
+                print("\n--- Edit Nilai Mahasiswa ---")
+                nim = input("Masukkan NIM yang akan diedit: ")
+                tugas = float(input("Nilai Tugas Baru : "))
+                uts = float(input("Nilai UTS Baru   : "))
+                uas = float(input("Nilai UAS Baru   : "))
+
+                if process.edit(nim, tugas, uts, uas):
+                    print("Data berhasil diperbarui!")
+                else:
+                    print("Data dengan NIM tersebut tidak ditemukan!")
+
+            elif pilihan == "4":
+                print("\nTerima kasih, program selesai.")
+                break
+
+            else:
+                print("Menu tidak valid!")
+
+        except ValueError as e:
+            print(f"Error: {e}")
+
+
+if _name_ == "_main_":
+    main()
