@@ -1,0 +1,28 @@
+# CLASS VIEW
+
+class MahasiswaView:
+    def menu(self):
+        print("\n" + "=" * 60)
+        print("      SISTEM PENILAIAN MAHASISWA")
+        print("=" * 60)
+        print("1. Tambah Data Mahasiswa")
+        print("2. Tampilkan Data")
+        print("3. Edit Nilai Mahasiswa")
+        print("4. Keluar")
+        print("=" * 60)
+
+    def tampilkan_tabel(self, data):
+        if not data:
+            print("\nData masih kosong!")
+            return
+
+        print("\n" + "=" * 95)
+        print(f"{'No':<4}{'Nama':<20}{'NIM':<12}{'Tugas':<8}{'UTS':<8}{'UAS':<8}{'Nilai Akhir':<12}")
+        print("=" * 95)
+
+        for i, mhs in enumerate(data, start=1):
+            print(f"{i:<4}{mhs.nama:<20}{mhs.nim:<12}"
+                  f"{mhs.tugas:<8.1f}{mhs.uts:<8.1f}{mhs.uas:<8.1f}"
+                  f"{mhs.nilai_akhir:<12.2f}")
+
+        print("=" * 95)
