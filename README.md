@@ -1,4 +1,4 @@
-<h1 align="center">🎓 PROJECT UAS – PROGRAM DATA MAHASISWA (OOP PYTHON)</h1>
+<h1 align="center">PROJECT UAS – PROGRAM DATA MAHASISWA (OOP PYTHON)</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python">
@@ -14,12 +14,12 @@
 
 <hr>
 
-<h2>📌 Deskripsi Project</h2>
+<h2> Deskripsi Project</h2>
 <ul>
-  <li>📂 Menggunakan konsep <b>OOP (Object Oriented Programming)</b></li>
-  <li>📊 Mengelola data nilai mahasiswa</li>
-  <li>🧮 Perhitungan nilai akhir otomatis</li>
-  <li>🧾 Tampilan berbasis menu (CLI)</li>
+  <li> Menggunakan konsep <b>OOP (Object Oriented Programming)</b></li>
+  <li> Mengelola data nilai mahasiswa</li>
+  <li> Perhitungan nilai akhir otomatis</li>
+  <li> Tampilan berbasis menu (CLI)</li>
 </ul>
 
 <p>
@@ -29,26 +29,26 @@
 
 <hr>
 
-<h2>🗂 Struktur Program</h2>
+<h2> Struktur Program</h2>
 
-<h3>📁 Class Data</h3>
+<h3> Class Data</h3>
 <img src="https://github.com/user-attachments/assets/d380d867-777e-45d8-8bc9-4bd174b42002" width="100%">
 
 <p>
 <b>Class Data</b> berfungsi sebagai tempat penyimpanan atribut mahasiswa seperti:
 <ul>
-  <li>🆔 NIM</li>
-  <li>👤 Nama Mahasiswa</li>
-  <li>📝 Nilai Tugas</li>
-  <li>📘 Nilai UTS</li>
-  <li>📕 Nilai UAS</li>
+  <li> NIM</li>
+  <li> Nama Mahasiswa</li>
+  <li> Nilai Tugas</li>
+  <li> Nilai UTS</li>
+  <li> Nilai UAS</li>
 </ul>
 Class ini bertindak sebagai <b>model data</b> yang akan digunakan oleh class lain.
 </p>
 
 <hr>
 
-<h3>⚙️ Class Process</h3>
+<h3> Class Process</h3>
 
 <img src="https://github.com/user-attachments/assets/e52768c3-7518-4d4f-953e-41588f5a3a92" width="100%">
 <img src="https://github.com/user-attachments/assets/2fdfc58c-632e-41cc-b4b5-30e2c6d4e71b" width="100%">
@@ -56,16 +56,16 @@ Class ini bertindak sebagai <b>model data</b> yang akan digunakan oleh class lai
 <p>
 <b>Class Process</b> berisi logika utama program, meliputi:
 <ul>
-  <li>➕ Menambahkan data mahasiswa</li>
-  <li>✏️ Mengedit data mahasiswa</li>
-  <li>📊 Menghitung nilai akhir secara otomatis</li>
+  <li> Menambahkan data mahasiswa</li>
+  <li> Mengedit data mahasiswa</li>
+  <li> Menghitung nilai akhir secara otomatis</li>
 </ul>
 Class ini menjadi penghubung antara data dan tampilan.
 </p>
 
 <hr>
 
-<h3>🖥️ Class View</h3>
+<h3> Class View</h3>
 
 <img src="https://github.com/user-attachments/assets/fa14861b-71a6-4243-a321-bbaf76485ed9" width="100%">
 <img src="https://github.com/user-attachments/assets/33135347-b6b3-4aa1-b403-f13c3575866c" width="100%">
@@ -73,16 +73,16 @@ Class ini menjadi penghubung antara data dan tampilan.
 <p>
 <b>Class View</b> bertugas menampilkan:
 <ul>
-  <li>📋 Menu program</li>
-  <li>📑 Data mahasiswa dalam bentuk tabel</li>
-  <li>💬 Pesan informasi & validasi</li>
+  <li> Menu program</li>
+  <li> Data mahasiswa dalam bentuk tabel</li>
+  <li> Pesan informasi & validasi</li>
 </ul>
 Tujuannya agar tampilan program lebih rapi dan mudah dipahami pengguna.
 </p>
 
 <hr>
 
-<h2>🚀 Program Utama (Main Program)</h2>
+<h2> Program Utama (Main Program)</h2>
 
 <img src="https://github.com/user-attachments/assets/01b781cc-4585-4752-8967-31f31885f849" width="100%">
 <img src="https://github.com/user-attachments/assets/5ab855a3-c290-4d28-9e4d-c557a93aec16" width="100%">
@@ -93,17 +93,17 @@ Tujuannya agar tampilan program lebih rapi dan mudah dipahami pengguna.
 <p>
 <b>Program utama</b> berfungsi untuk:
 <ul>
-  <li>🔄 Mengatur alur program</li>
-  <li>📌 Menampilkan menu pilihan</li>
-  <li>🎯 Menghubungkan class Data, Process, dan View</li>
+  <li> Mengatur alur program</li>
+  <li> Menampilkan menu pilihan</li>
+  <li> Menghubungkan class Data, Process, dan View</li>
 </ul>
 </p>
 
 <hr>
 
-<h2>📊 Hasil Program</h2>
+<h2> Hasil Program</h2>
 
-<h3>➕ Menu 1 – Tambah Data Mahasiswa</h3>
+<h3> Menu 1 – Tambah Data Mahasiswa</h3>
 <img src="https://github.com/user-attachments/assets/4f1035a6-6296-4e3d-b470-ec0ffc495ae8" width="100%">
 <img src="https://github.com/user-attachments/assets/8abf0d41-1db9-4da4-8e1d-9f1280b09175" width="100%">
 
@@ -114,7 +114,7 @@ Pengguna diminta mengisi NIM, nama, nilai tugas, UTS, dan UAS.
 
 <hr>
 
-<h3>✏️ Menu 3 – Edit Data Mahasiswa</h3>
+<h3> Menu 3 – Edit Data Mahasiswa</h3>
 <img src="https://github.com/user-attachments/assets/418c0ae8-1b76-45e4-a695-2a2dea83fb7a" width="100%">
 
 <p>
@@ -124,21 +124,21 @@ seperti nilai atau identitas mahasiswa.
 
 <hr>
 
-<h3>📋 Menu 2 – Tampilkan Data Mahasiswa</h3>
+<h3> Menu 2 – Tampilkan Data Mahasiswa</h3>
 <img src="https://github.com/user-attachments/assets/38aa098d-2acd-4716-8bb4-835308992106" width="100%">
 
 <p>
 Data mahasiswa ditampilkan dalam bentuk tabel sederhana, lengkap dengan:
 <ul>
-  <li>📌 Identitas mahasiswa</li>
-  <li>📊 Nilai tugas, UTS, dan UAS</li>
-  <li>🧮 Nilai akhir hasil perhitungan otomatis</li>
+  <li> Identitas mahasiswa</li>
+  <li> Nilai tugas, UTS, dan UAS</li>
+  <li> Nilai akhir hasil perhitungan otomatis</li>
 </ul>
 </p>
 
 <hr>
 
-<h3>🚪 Menu 4 – Keluar Program</h3>
+<h3> Menu 4 – Keluar Program</h3>
 <img src="https://github.com/user-attachments/assets/c35f9088-71fc-45fc-a16e-231e006e3d2f" width="100%">
 
 <p>
@@ -148,7 +148,7 @@ Program akan berhenti setelah pengguna memilih menu ini.
 
 <hr>
 
-<h2>✅ Kesimpulan</h2>
+<h2> Kesimpulan</h2>
 <p>
 Program ini berhasil menerapkan konsep <b>OOP</b>, bersifat modular, mudah dikembangkan,
 dan membantu pengguna dalam mengelola data nilai mahasiswa secara terstruktur dan efisien.
