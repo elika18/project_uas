@@ -104,12 +104,26 @@ Tujuannya agar tampilan program lebih rapi dan mudah dipahami pengguna.
 <h2> Hasil Program</h2>
 
 <h3> Menu 1 – Tambah Data Mahasiswa</h3>
-<img src="https://github.com/user-attachments/assets/4f1035a6-6296-4e3d-b470-ec0ffc495ae8" width="100%">
-<img src="https://github.com/user-attachments/assets/8abf0d41-1db9-4da4-8e1d-9f1280b09175" width="100%">
+<img width="669" height="413" alt="image" src="https://github.com/user-attachments/assets/b74f70ee-f6de-455b-aebd-2f841c50f744" />
+
 
 <p>
 Fitur ini digunakan untuk menginput data mahasiswa baru melalui menu pilihan <b>1</b>.
 Pengguna diminta mengisi NIM, nama, nilai tugas, UTS, dan UAS.
+</p>
+
+<hr>
+
+<h3> Menu 2 – Tampilkan Data Mahasiswa</h3>
+<img src="https://github.com/user-attachments/assets/38aa098d-2acd-4716-8bb4-835308992106" width="100%">
+
+<p>
+Data mahasiswa ditampilkan dalam bentuk tabel sederhana, lengkap dengan:
+<ul>
+  <li> Identitas mahasiswa</li>
+  <li> Nilai tugas, UTS, dan UAS</li>
+  <li> Nilai akhir hasil perhitungan otomatis</li>
+</ul>
 </p>
 
 <hr>
