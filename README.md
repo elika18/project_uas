@@ -130,7 +130,8 @@ Data mahasiswa ditampilkan dalam bentuk tabel sederhana, lengkap dengan:
 <hr>
 
 <h3> Menu 3 – Edit Data Mahasiswa</h3>
-<img width="773" height="356" alt="image" src="https://github.com/user-attachments/assets/b99e686f-2411-47af-9947-d9d989acf01c" />
+<img width="613" height="313" alt="image" src="https://github.com/user-attachments/assets/8701e4a4-334a-4e27-8fbe-2f4ff9211acb" />
+
 
 
 <p>
@@ -141,7 +142,8 @@ seperti nilai atau identitas mahasiswa.
 <hr>
 
 <h3> Menu 4 – Keluar Program</h3>
-<img src="https://github.com/user-attachments/assets/c35f9088-71fc-45fc-a16e-231e006e3d2f" width="100%">
+<img width="593" height="282" alt="image" src="https://github.com/user-attachments/assets/c46046ef-0523-4630-bbbe-42114bccaadf" />
+
 
 <p>
 Menu keluar digunakan untuk mengakhiri eksekusi program dengan aman.
@@ -157,5 +159,3 @@ dan membantu pengguna dalam mengelola data nilai mahasiswa secara terstruktur da
 </p>
 
 <p align="center">
-  ✨ <b>Terima kasih telah melihat project ini</b> ✨
-</p>
