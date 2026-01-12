@@ -1,0 +1,39 @@
+#CLASS PROCESS
+
+class MahasiswaProcess:
+    def _init_(self):
+        self.data = []
+
+    def validasi_nilai(self, nilai):
+        if nilai < 0 or nilai > 100:
+            raise ValueError("Nilai harus antara 0 - 100")
+
+    def tambah(self, nama, nim, tugas, uts, uas):
+        if not nama.replace(" ", "").isalpha():
+            raise ValueError("Nama harus berupa huruf")
+
+        if not nim.isdigit():
+            raise ValueError("NIM harus berupa angka")
+
+        self.validasi_nilai(tugas)
+        self.validasi_nilai(uts)
+        self.validasi_nilai(uas)
+
+        self.data.append(Mahasiswa(nama, nim, tugas, uts, uas))
+
+    def edit(self, nim, tugas, uts, uas):
+        for mhs in self.data:
+            if mhs.nim == nim:
+                self.validasi_nilai(tugas)
+                self.validasi_nilai(uts)
+                self.validasi_nilai(uas)
+
+                mhs.tugas = tugas
+                mhs.uts = uts
+                mhs.uas = uas
+                mhs.nilai_akhir = mhs.hitung_nilai_akhir()
+                return True
+        return False
+
+    def get_data(self):
+        return self.data
