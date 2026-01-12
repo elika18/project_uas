@@ -138,20 +138,6 @@ seperti nilai atau identitas mahasiswa.
 
 <hr>
 
-<h3> Menu 2 – Tampilkan Data Mahasiswa</h3>
-<img src="https://github.com/user-attachments/assets/38aa098d-2acd-4716-8bb4-835308992106" width="100%">
-
-<p>
-Data mahasiswa ditampilkan dalam bentuk tabel sederhana, lengkap dengan:
-<ul>
-  <li> Identitas mahasiswa</li>
-  <li> Nilai tugas, UTS, dan UAS</li>
-  <li> Nilai akhir hasil perhitungan otomatis</li>
-</ul>
-</p>
-
-<hr>
-
 <h3> Menu 4 – Keluar Program</h3>
 <img src="https://github.com/user-attachments/assets/c35f9088-71fc-45fc-a16e-231e006e3d2f" width="100%">
 
