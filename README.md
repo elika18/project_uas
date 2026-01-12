@@ -115,7 +115,8 @@ Pengguna diminta mengisi NIM, nama, nilai tugas, UTS, dan UAS.
 <hr>
 
 <h3> Menu 2 – Tampilkan Data Mahasiswa</h3>
-<img src="https://github.com/user-attachments/assets/38aa098d-2acd-4716-8bb4-835308992106" width="100%">
+<img width="773" height="356" alt="image" src="https://github.com/user-attachments/assets/ece6bdec-bf32-4eca-bbdd-cd38f1e8f566" />
+
 
 <p>
 Data mahasiswa ditampilkan dalam bentuk tabel sederhana, lengkap dengan:
@@ -129,7 +130,8 @@ Data mahasiswa ditampilkan dalam bentuk tabel sederhana, lengkap dengan:
 <hr>
 
 <h3> Menu 3 – Edit Data Mahasiswa</h3>
-<img src="https://github.com/user-attachments/assets/418c0ae8-1b76-45e4-a695-2a2dea83fb7a" width="100%">
+<img width="773" height="356" alt="image" src="https://github.com/user-attachments/assets/b99e686f-2411-47af-9947-d9d989acf01c" />
+
 
 <p>
 Fitur edit memungkinkan pengguna memperbarui data mahasiswa apabila terdapat kesalahan input,
